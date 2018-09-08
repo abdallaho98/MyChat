@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "963410869835",
+    "firebase_url": "https://mychat-73b41.firebaseio.com",
+    "project_id": "mychat-73b41",
+    "storage_bucket": "mychat-73b41.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963410869835:android:bbaab8ea8a6002de",
+        "android_client_info": {
+          "package_name": "ABDALLAH.DZ.COM"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963410869835-mr3k6lfahjumviniq09tdqgv9dv2ccgm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIVmhfTKVJronp76BlTWydS4LZ6f7D1-A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963410869835:android:d073193f2ae2dcfd",
+        "android_client_info": {
+          "package_name": "com.dz.abdallah.mychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963410869835-g3dlv3jh2s7sh0f7oedh3lg3gf9d2ehb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dz.abdallah.mychat",
+            "certificate_hash": "c31544fe4f9d719a2334299086a3020e663cd079"
+          }
+        },
+        {
+          "client_id": "963410869835-mr3k6lfahjumviniq09tdqgv9dv2ccgm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIVmhfTKVJronp76BlTWydS4LZ6f7D1-A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "963410869835-mr3k6lfahjumviniq09tdqgv9dv2ccgm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

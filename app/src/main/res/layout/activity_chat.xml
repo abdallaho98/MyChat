@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/circle_accent"
+    tools:context="com.dz.abdallah.mychat.ChatActivity">
+
+    <ListView
+        android:id="@+id/listmessage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/TextSent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"></ListView>
+
+    <EditText
+        android:id="@+id/TextSent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/cardview_compat_inset_shadow"
+        android:layout_marginLeft="@dimen/cardview_compat_inset_shadow"
+        android:layout_marginRight="@dimen/cardview_compat_inset_shadow"
+        android:background="@drawable/rounded_rect_bg"
+        android:hint="type_a_message"
+        android:imeOptions="actionSend"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/Sent"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/android_send_icon_icons"
+        android:layout_alignBaseline="@+id/TextSent"
+        android:layout_alignBottom="@+id/TextSent"
+        android:layout_alignParentEnd="true"
+        />
+
+
+</RelativeLayout>
